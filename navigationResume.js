@@ -2,19 +2,15 @@ let navOpen = false;
 let myMediaQuery = window.matchMedia('(max-width: 700px)');
 let myDeviceQuery = window.matchMedia('(max-device-width: 749px)');
 
-function toggleNav(x)
-{
-    if(navOpen)
-    {
+function toggleNav(x) {
+    if(navOpen){
         document.getElementById("mySidenav").style.width = "0";
         document.getElementById("mainResume").style.marginLeft = "0";
-    } else
-    {
-        if(myMediaQuery.matches || myDeviceQuery.matches) // Little Screen
-        {
+    }
+    else {
+        if (myMediaQuery.matches || myDeviceQuery.matches) { // Little Screen
             document.getElementById("mySidenav").style.width = "100%";
-        } else
-        {
+        } else {
             document.getElementById("mySidenav").style.width = "250px";
             document.getElementById("mainResume").style.marginLeft = "250px";
         }

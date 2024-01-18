@@ -234,7 +234,7 @@ body {
 }
 .columnLeft {
     float: left;
-    width: 50%;
+    width: 30%;
     margin-left:0;
     margin-right: 0;
     margin-bottom: 0;
@@ -242,7 +242,16 @@ body {
 }
 .columnRight {
     float: right;
-    width: 50%;
+    width: 30%;
+    margin-left:0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.columnCenter {
+    float: center;
+    justify-content: center;
+    width: 30%;
     margin-left:0;
     margin-right: 0;
     margin-bottom: 0;

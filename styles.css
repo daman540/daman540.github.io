@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
 
 :root{
+    /* Light Mode Colors */
     --darkblue: #2443e1;
     --blue: #3F5EFB;
     --lightBlue: #5770ff;
@@ -15,6 +16,8 @@
     --darkGray: #2f2f32;
     --black: #000000FF;
     --magenta: #622159;
+
+    /* Dark Mode Colors */
 }
 
 /*Whole Webpage*/
@@ -24,7 +27,6 @@ html,body {
     -ms-text-size-adjust: none;
     -moz-text-size-adjust: none;
 }
-
 /*Headers, Paragraphs, Text etc*/
 h1{
     font-family: 'Barlow Condensed', sans-serif;
@@ -90,6 +92,10 @@ span {
     font-style: italic;
 }
 
+.dark-mode {
+    background-color: black;
+    color:white;
+}
 /*----Page Header----*/
 .header {
     display: block;

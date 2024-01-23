@@ -12,7 +12,7 @@
     --lightGray: #FFFFFF7F;
     --mainGray: #333;
     --gray: #494B4FFF;
-    --darkGray: #2f3033;
+    --darkGray: #2f2f32;
     --black: #000000FF;
     --magenta: #622159;
 }
@@ -234,7 +234,7 @@ body {
 }
 .columnLeft {
     float: left;
-    width: 30%;
+    width: 40%;
     margin-left:0;
     margin-right: 0;
     margin-bottom: 0;

@@ -22,6 +22,7 @@
 
 /*Whole Webpage*/
 html,body {
+    scroll-behavior: smooth;
     text-size-adjust: none;
     -webkit-text-size-adjust: none;
     -ms-text-size-adjust: none;
@@ -99,6 +100,18 @@ span {
 
 .dark-mode-text {
     color:black;
+}
+
+.dark-mode-button {
+    background-color: #e7e7e7;
+    color: black;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
 }
 
 /*----Page Header----*/

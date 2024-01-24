@@ -96,6 +96,11 @@ span {
     background-color: black;
     color:white;
 }
+
+.dark-mode-text {
+    color:black;
+}
+
 /*----Page Header----*/
 .header {
     display: block;

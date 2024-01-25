@@ -408,8 +408,8 @@ li a:hover {
     color: var(--darkGray);
 }
 .activeLink {
-    pointer-events: none;
-    cursor: default;
+    pointer-events: auto;
+    cursor: auto;
 }
 
 /*----Images----*/
